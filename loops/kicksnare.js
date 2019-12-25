@@ -1,7 +1,7 @@
 import * as PIXI from 'pixi.js'
 import Tone from 'tone'
 import { ease } from 'pixi-ease'
-import { width, height } from '../coords'
+import { width, height } from '../utils/coords'
 
 export let ks = (app, loopLength = '8n') => {
   let g = new PIXI.Graphics()

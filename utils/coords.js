@@ -5,6 +5,8 @@ export let height = window.innerHeight
 
 export let quarterWidth = width / 4
 
+export let center = [width / 2, height / 2]
+
 export let tiles = (x, y) => {
   let w = width / x
   let h = height / y
